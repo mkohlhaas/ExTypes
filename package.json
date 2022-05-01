@@ -1,0 +1,20 @@
+{
+  "name": "aaaaa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purescript": "^0.15.0",
+    "purescript-language-server": "^0.16.6",
+    "purescript-psa": "^0.8.2",
+    "purs-tidy": "^0.8.0",
+    "purty": "^7.0.0",
+    "spago": "^0.20.8"
+  }
+}
