@@ -8,6 +8,10 @@ import Effect.Console (log)
 -- does not work:
 -- newtype Showable = ∀ a. Show a => Showable a
 
+-- hiding show method in a funcion:
+-- newtype Showable = Showable (∀ a. Show a => a -> String) -> String)
+
+-- compiler can figure out r:
 newtype Showable = Showable (∀ r. (∀ a. Show a => a -> r) -> r)
 
 mkShowable :: ∀ a. Show a => a -> Showable
